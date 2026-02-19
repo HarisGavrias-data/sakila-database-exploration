@@ -21,16 +21,6 @@ This project is designed as a portfolio-ready SQL showcase for learning, experim
 - Data analysis logic
 - Query structuring and readability
 
----
-
-## Project Structure
-sakila-sql-project/
-│
-├── queries/
-│ └── queries.sql
-│
-└── README.md
-
 
 ---
 

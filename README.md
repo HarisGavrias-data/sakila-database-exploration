@@ -56,6 +56,11 @@ queries/queries.sql
 
 ---
 
+## Query Result — Top 3 Customers Per Store
+
+![Top Customers Per Store](results/top3_customers_per_store.png)
+
+---
 ## Future Improvements
 - Advanced analytical queries
 - Window functions

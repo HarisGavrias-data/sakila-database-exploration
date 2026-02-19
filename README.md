@@ -1,82 +1,84 @@
-Sakila SQL Analysis Project
-📌 Overview
+# Sakila SQL Project
 
-This repository contains SQL queries built using the Sakila sample database, a relational dataset that simulates a DVD rental business.
-The purpose of this project is to practice and demonstrate SQL skills including joins, aggregations, filtering, grouping, and analytical querying.
+A structured SQL practice project using the Sakila sample database to demonstrate query writing, data analysis, and relational database understanding.
 
-🎯 Project Goals
+---
 
-Strengthen SQL querying skills
+## About The Project
+This repository contains a collection of SQL queries written to explore and analyze the Sakila DVD rental database.  
+The goal is to showcase practical SQL skills through real-world style questions and analytical tasks.
 
-Explore relational database structures
+This project is designed as a portfolio-ready SQL showcase for learning, experimentation, and demonstration of database proficiency.
 
-Perform real-world style data analysis
+---
 
-Build a portfolio-ready SQL project for recruiters
+## Skills Demonstrated
+- Complex JOIN operations
+- Aggregate functions
+- GROUP BY and HAVING clauses
+- Subqueries
+- Filtering and sorting
+- Data analysis logic
+- Query structuring and readability
 
-🗂 Repository Structure
-sakila-sql-analysis/
+---
+
+## Project Structure
+sakila-sql-project/
 │
 ├── queries/
-│   └── queries.sql        # All analysis queries
+│ └── queries.sql
 │
-└── README.md              # Project documentation
-🧠 Skills Demonstrated
+└── README.md
 
-SELECT statements
 
-JOIN operations
+---
 
-GROUP BY & HAVING
+## Analysis Topics Covered
+- Film distribution across categories
+- Customer rental behavior
+- Revenue patterns
+- Store performance comparisons
+- Popular actors and films
 
-Aggregate functions
+---
 
-Sorting and filtering
+## Dataset
+This project uses the Sakila sample database, which simulates a movie rental business and includes relational tables such as:
 
-Analytical thinking with data
+- customers
+- rentals
+- payments
+- films
+- actors
+- categories
+- inventory
+- stores
 
-🗃 Dataset Information
+---
 
-The Sakila database models a movie rental system and includes tables such as:
-
-customers
-
-rentals
-
-payments
-
-films
-
-actors
-
-categories
-
-inventory
-
-stores
-
-It is commonly used for SQL practice and database learning.
-
-📊 Query Topics Included
-
-The queries in this project explore:
-
-Film distribution by category
-
-Customer activity
-
-Revenue insights
-
-Store performance
-
-Rental trends
-
-🚀 How to Use
-
-Install the Sakila database locally
-
-Open your SQL client (MySQL, PostgreSQL, SQLite, etc.)
-
-Run queries from:
+## How To Run
+1. Install the Sakila database
+2. Open your SQL environment
+3. Run the queries inside:
 
 queries/queries.sql
+
+---
+
+## Future Improvements
+- Advanced analytical queries
+- Window functions
+- Performance optimization examples
+- Index testing
+- Execution plan analysis
+
+---
+
+## Purpose
+This repository is part of a growing SQL portfolio meant to demonstrate hands-on database skills for:
+- Data Analyst roles
+- Backend development roles
+- Data Engineering entry positions
+
+---

@@ -58,9 +58,9 @@ queries/queries.sql
 ---
 
 ## Query Result — Top 3 Customers Per Store
-
 ![Top Customers Per Store](results/top3_customers_per_store.png)
-
+## Query Result — Top 2 Categories per Store
+![Top Categories Per Store](results/top_2_categories_per_store.png)
 ---
 ## Future Improvements
 - Advanced analytical queries

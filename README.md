@@ -62,14 +62,6 @@ queries/queries.sql
 ## Query Result — Top 2 Categories per Store
 ![Top Categories Per Store](results/top_2_categories_per_store.png)
 ---
-## Future Improvements
-- Advanced analytical queries
-- Window functions
-- Performance optimization examples
-- Index testing
-- Execution plan analysis
-
----
 
 ## Purpose
 This repository is part of a growing SQL portfolio meant to demonstrate hands-on database skills for:

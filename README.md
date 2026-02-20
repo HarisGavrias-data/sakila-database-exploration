@@ -17,6 +17,7 @@ This project is designed as a portfolio-ready SQL showcase for learning, experim
 - Aggregate functions
 - GROUP BY and HAVING clauses
 - Subqueries
+- Windows functions
 - Filtering and sorting
 - Data analysis logic
 - Query structuring and readability

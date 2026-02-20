@@ -33,9 +33,9 @@ The goal is to demonstrate real-world business analysis skills using SQL, includ
 ## 📌 Featured Queries
 
 ### 🥇 Top Customers per Store
-Returns the highest-spending customers for each store.
+Returns the 3 highest-spending customers for each store.
 
-![Top Customers](results/top_customers_per_store.png)
+![Top Customers](results/top3_customers_per_store.png)
 
 ---
 

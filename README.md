@@ -4,23 +4,19 @@ A structured SQL practice project using the Sakila sample database to demonstrat
 
 ---
 
-## About The Project
-This repository contains a collection of SQL queries written to explore and analyze the Sakila DVD rental database.  
-The goal is to showcase practical SQL skills through real-world style questions and analytical tasks.
-
-This project is designed as a portfolio-ready SQL showcase for learning, experimentation, and demonstration of database proficiency.
-
+## 📊 Project Overview
+This project contains advanced analytical SQL queries built using the **Sakila sample database**.  
+The goal is to demonstrate real-world business analysis skills using SQL, including revenue insights, customer behavior, ranking analysis, and store performance.
 ---
 
-## Skills Demonstrated
+## 🧠 Skills Demonstrated
 - Complex JOIN operations
-- Aggregate functions
-- GROUP BY and HAVING clauses
-- Subqueries
-- Windows functions
-- Filtering and sorting
-- Data analysis logic
-- Query structuring and readability
+- Aggregations & grouped analytics
+- Window functions (RANK, DENSE_RANK, ROW_NUMBER)
+- CTEs for modular query design
+- Business KPI calculations
+- Data storytelling with SQL
+
 
 
 ---
@@ -34,39 +30,34 @@ This project is designed as a portfolio-ready SQL showcase for learning, experim
 
 ---
 
-## Dataset
-This project uses the Sakila sample database, which simulates a movie rental business and includes relational tables such as:
+## 📌 Featured Queries
 
-- customers
-- rentals
-- payments
-- films
-- actors
-- categories
-- inventory
-- stores
+### 🥇 Top Customers per Store
+Returns the highest-spending customers for each store.
+
+![Top Customers](results/top_customers_per_store.png)
 
 ---
 
-## How To Run
-1. Install the Sakila database
-2. Open your SQL environment
-3. Run the queries inside:
+### 🎬 Top 2 Film Categories per Store by Revenue
+Ranks film categories by total revenue within each store and returns the top two.
 
-queries/queries.sql
+![Top Categories](results/top_2_categories_per_store.png)
 
 ---
 
-## Query Result — Top 3 Customers Per Store
-![Top Customers Per Store](results/top3_customers_per_store.png)
-## Query Result — Top 2 Categories per Store
-![Top Categories Per Store](results/top_2_categories_per_store.png)
+## 🚀 How to Run Queries
+1. Import Sakila database  
+2. Open MySQL Workbench (or any SQL client)  
+3. Run queries from the `/queries` folder  
+
 ---
 
-## Purpose
-This repository is part of a growing SQL portfolio meant to demonstrate hands-on database skills for:
-- Data Analyst roles
-- Backend development roles
-- Data Engineering entry positions
+## 📈 Why This Project Matters
+This project showcases **real analytical thinking**, not just SQL syntax.  
+Each query answers a realistic business question such as:
 
+- What generates the most revenue?
+- Who are the most valuable customers?
+- Which categories perform best per location?
 ---

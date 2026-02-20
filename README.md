@@ -31,6 +31,11 @@ The goal is to demonstrate real-world business analysis skills using SQL, includ
 ---
 
 ## 📌 Featured Queries
+### 🥇 Top Customers per Store
+Returns the 5 most-consistent customers per monthly average rental for each store.
+
+![Top Customers](results/top_5_consistent_customers_per_store.png)
+
 
 ### 🥇 Top Customers per Store
 Returns the 3 highest-spending customers for each store.
